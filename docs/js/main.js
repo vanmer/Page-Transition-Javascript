@@ -42,32 +42,6 @@ function contentAnimation() {
     });
 }
 
-// $(function () {
-//     barba.init({
-//         sync: true,
-
-//         transitions: [
-//             {
-//                 async leave(data) {
-//                     const done = this.async();
-
-//                     pageTransition();
-//                     await delay(1000);
-//                     done();
-//                 },
-
-//                 async enter(data) {
-//                     contentAnimation();
-//                 },
-
-//                 async once(data) {
-//                     contentAnimation();
-//                 },
-//             },
-//         ],
-//     });
-// });
-
 $(function () {
     barba.init({
         sync: true,
